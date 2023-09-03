@@ -20,7 +20,7 @@ html, body {
 #home {
     background-color: rgb(29, 22, 22);
     color: rgb(190, 182, 182);
-
+    margin-right: 10px;
     font-size: 15px
     
 }
@@ -28,7 +28,7 @@ html, body {
 #Bikes {
     background-color: rgb(29, 22, 22);
     color: rgb(190, 182, 182);
-    
+    margin-right: 10px;
     font-size: 15px
 
 }
@@ -36,30 +36,34 @@ html, body {
 #Accessories{
     background-color: rgb(29, 22, 22);
     color: rgb(190, 182, 182);
-    
+    margin-right: 10px;
     font-size: 15px
 }
 
 #Contact {
     background-color: rgb(29, 22, 22);
     color: rgb(190, 182, 182);
-    
+    margin-right: 10px;
     font-size: 15px
 }
 
 
 #rullande{
     font-size: 15px;
+    text-align: center;
 }
+
+
+
 
 #footer {
     background-color: rgb(29, 22, 22);
     color: rgb(190, 182, 182);
-
-    padding: 20px;
+    padding: 10px;
     text-align: center;
-
-
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 
 
@@ -69,29 +73,10 @@ footer span {
 
 
 .image {
-    height: 1000px;
-    width:  100%;
+    height: 300px;
+    width:  20%px;
     font-display: block;
-}
-
-#select {
-    text-align: center;
-
-}
-
-h4 {
-    color: rgb(201, 68, 68);
-    font-size: 0.9rem;
-}
-
-h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-}
-
-.about-company {
-    margin-top: 20px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 
