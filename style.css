@@ -7,8 +7,52 @@ html, body {
 }
 
 
+#header {
+    background-color: rgb(29, 22, 22);
+    color: rgb(190, 182, 182);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
 
-#Rubrik {
+    
+}
+
+#home {
+    background-color: rgb(29, 22, 22);
+    color: rgb(190, 182, 182);
+
+    font-size: 15px
+    
+}
+
+#Bikes {
+    background-color: rgb(29, 22, 22);
+    color: rgb(190, 182, 182);
+    
+    font-size: 15px
+
+}
+
+#Accessories{
+    background-color: rgb(29, 22, 22);
+    color: rgb(190, 182, 182);
+    
+    font-size: 15px
+}
+
+#Contact {
+    background-color: rgb(29, 22, 22);
+    color: rgb(190, 182, 182);
+    
+    font-size: 15px
+}
+
+
+#rullande{
+    font-size: 15px;
+}
+
+#footer {
     background-color: rgb(29, 22, 22);
     color: rgb(190, 182, 182);
 

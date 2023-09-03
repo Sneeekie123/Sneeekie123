@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bike Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product h2 {
+            font-size: 1.5rem;
+            margin-top: 0;
+        }
+
+        .product p {
+            margin: 10px 0;
+        }
+
+        .product button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .contact {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Bike Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Bikes</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="products">
+        <article class="product">
+            <img src="bike1.jpg" alt="Mountain Bike">
+            <h2>Mountain Bike</h2>
+            <p>Description of the mountain bike goes here.</p>
+            <p>Price: $499.99</p>
+            <button>Add to Cart</button>
+        </article>
+        <article class="product">
+            <img src="bike2.jpg" alt="Road Bike">
+            <h2>Road Bike</h2>
+            <p>Description of the road bike goes here.</p>
+            <p>Price: $599.99</p>
+            <button>Add to Cart</button>
+        </article>
+        <!-- Add more products as needed -->
+    </section>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need assistance, please contact us:</p>
+        <address>
+            Email: <a href="mailto:info@mybikeshop.com">info@mybikeshop.com</a><br>
+            Phone: <a href="tel:+123456789">123-456-789</a>
+        </address>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Bike Shop</p>
+    </footer>
+</body>
+</html>2
